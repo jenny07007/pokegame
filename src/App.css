@@ -3,7 +3,7 @@
 }
 
 .card-container {
-  max-width: 80%;
+  max-width: 85%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -24,8 +24,26 @@
   color: rgb(75, 5, 118);
 }
 
+.card img {
+  transition: all 0.2s;
+  opacity: 0.9;
+}
+
+.card img:hover {
+  transform: scale(1.1);
+  opacity: 1
+}
+
 p {
-  font-family: 'Dank Mono', 'Roboto';
+  font-family: 'Dank Mono', 'Courier Prime', monospace;
   font-size: 1em;
   line-height: 0.9;
+}
+
+#winner {
+  margin-top: 30px;
+  font-family: 'Dank Mono';
+  font-weight: bold;
+  color: rgba(215, 71, 255, 0.893);
+  font-size: 1.2em;
 }
